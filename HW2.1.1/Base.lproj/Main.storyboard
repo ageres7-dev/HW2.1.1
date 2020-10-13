@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,22 +13,22 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW2_1_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJh-Yp-Qnq">
-                                <rect key="frame" x="54" y="10" width="788" height="373"/>
+                                <rect key="frame" x="10" y="54" width="394" height="798"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAC-41-Pwv">
-                                        <rect key="frame" x="0.0" y="0.0" width="788" height="181.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="394"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1K-a7-1hZ">
-                                        <rect key="frame" x="0.0" y="191.5" width="788" height="181.5"/>
+                                        <rect key="frame" x="0.0" y="404" width="394" height="394"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="quaternarySystemFillColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="h1K-a7-1hZ" secondAttribute="trailing" id="8Z4-De-8Qg"/>
                                     <constraint firstAttribute="trailing" secondItem="sAC-41-Pwv" secondAttribute="trailing" id="JKL-pe-Lws"/>
@@ -41,13 +41,13 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="oLk-g5-hYJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sJh-Yp-Qnq" secondAttribute="trailing" constant="10" id="6Ka-Qb-huW"/>
-                            <constraint firstItem="sJh-Yp-Qnq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="KZ5-hB-tSo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sJh-Yp-Qnq" secondAttribute="bottom" constant="10" id="OSx-eA-PjY"/>
-                            <constraint firstItem="sJh-Yp-Qnq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="muh-cr-Gt5"/>
+                            <constraint firstItem="oLk-g5-hYJ" firstAttribute="trailing" secondItem="sJh-Yp-Qnq" secondAttribute="trailing" constant="10" id="6Ka-Qb-huW"/>
+                            <constraint firstItem="sJh-Yp-Qnq" firstAttribute="leading" secondItem="oLk-g5-hYJ" secondAttribute="leading" constant="10" id="KZ5-hB-tSo"/>
+                            <constraint firstItem="oLk-g5-hYJ" firstAttribute="bottom" secondItem="sJh-Yp-Qnq" secondAttribute="bottom" constant="10" id="OSx-eA-PjY"/>
+                            <constraint firstItem="sJh-Yp-Qnq" firstAttribute="top" secondItem="oLk-g5-hYJ" secondAttribute="top" constant="10" id="muh-cr-Gt5"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -56,9 +56,16 @@
             <point key="canvasLocation" x="188.40579710144928" y="46.875"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemFillColor"/>
     <resources>
+        <systemColor name="quaternarySystemFillColor">
+            <color red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
